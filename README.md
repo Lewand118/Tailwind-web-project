@@ -1,0 +1,1 @@
+Webpage replication project for frontend development

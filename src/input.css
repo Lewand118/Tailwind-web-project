@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.myinput {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: gray
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: gray;
+    margin-bottom: 30px;
+}
+
+.image_cut::after {
+    content: "";
+    position: relative;
+    top: 93%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: red;
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+}
