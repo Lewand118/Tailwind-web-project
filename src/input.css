@@ -27,3 +27,7 @@ hr {
     -moz-transform: rotate(-50deg);
     transform: rotate(-50deg);
 }
+
+.bg_table {
+    background-color: #E1F5FC;
+}
