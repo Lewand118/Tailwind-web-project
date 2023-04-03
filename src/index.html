@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../dist/output.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Front Project 1 - prop5</title>
   </head>
 
@@ -16,7 +17,7 @@
       </div>
 
       <div class="flex flex-wrap">
-        <div class="flex flex-wrap w-1/2">
+        <div class="flex flex-wrap w-1/2 justify-center">
           <div>
             <img src="../img/icon.png" alt="/" />
           </div>
@@ -301,13 +302,26 @@
         </div>
       </div>
 
-      <div class="bg-blue-200">
+
+
+      <!-- <script>
+
+
+      </script>
+      
+      <div id="table">
+
+      </div> -->
+
+
+
+      <div class="bg-blue-200 p-2">
         <table class="table-auto mx-20 ">
-          <thead>
-            <tr class="border border-black">
-              <th>Free hand lugge 01 November 2019</th>
-              <th>126 cm</th>
-              <th>121 cm</th>
+          <thead class="">
+            <tr class="flex items-center justify-center ">
+              <th class="border-y border-black">European LCC Airlines</th>
+              <th class="border border-black" >126 cm</th>
+              <th class="">121 cm</th>
               <th>120 cm</th>
               <th>118 cm</th>
               <th>115 cm</th>
@@ -337,44 +351,29 @@
         </table>
       </div>
 
-      <div class="bg-gray-800">
-        
-        <!-- <div class="grid place-items-center m-0 p-0"> -->
-
-          <div class="flex flex-wrap items-center justify-center content-center">
-
-            <div class="w-2/4 space-x-0 m-0 p-0">
-              <div class="grid grid-cols-2 grid-rows-1 m-0 p-4">
-                <div>
-                  <img src="../img/icon_footer.png" alt="/" />
-                </div>
-                <div>
-                  <p class="text-white p-0 m-0 text-xl font-bold">AIRPASSENGER</p>
-                  <p class="text-white text-xs p-0 m-0">airlines & airports of the world</p>
-                </div>
-              </div>
-            </div>
-    
-            <div class="w-3/4 ">
-
-              <div class="flex flex-col content-center justify-center items-center p-4">
-                <nav class="text-gray-300 text-xs">
-                  <a class="mr-1">AIRLINES</a>
-                  <span class="mr-1">|</span>
-                  <a class="mr-1">AIRTRENDS</a>
-                  <span class="mr-1">|</span>
-                  <a class="mr-1">AIRCHALLENGES</a>
-                  <span class="mr-1">|</span>
-                  <a class="mr-1">KONTAKT</a>
-                </nav>
-                  
-              </div>
-            </div>
+      <div class="bg-gray-700">
+        <div class="flex flex-wrap justify-center content-center p-2">
+          <div>
+            <img class="" src="../img/icon_footer.png " alt="/" />
           </div>
-        <!-- </div> -->
-
-
+          <div class="px-2">
+            <p class="text-white p-0 m-0 text-xl font-bold">AIRPASSENGER</p>
+            <p class="text-white text-xs p-0 m-0">airlines & airports of the world</p>
+          </div>
+          <div>
+            <nav class="text-gray-300 text-xs px-2 mx-2">
+              <a class="mr-1">AIRLINES</a>
+              <span class="mr-1">|</span>
+              <a class="mr-1">AIRTRENDS</a>
+              <span class="mr-1">|</span>
+              <a class="mr-1">AIRCHALLENGES</a>
+              <span class="mr-1">|</span>
+              <a class="mr-1">KONTAKT</a>
+            </nav>
+          </div>
+        </div>
       </div>
+
 
     </div>
 
