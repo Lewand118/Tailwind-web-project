@@ -33,19 +33,20 @@ hr {
 }
 
 .background {
-    width: 100px;
-    height: 50px;
+    width: 300px;
+    height: 150px;
     padding: 0;
     margin: 0;
   }
   
   .line {
-    width: 112px;
-    height: 47px;
-    border-bottom: 1px solid red;
-    transform: translateY(-20px) translateX(5px) rotate(27deg);
-    position: absolute;
-    z-index: -1;
+    padding: 0px;
+    margin: 0px;
+    width: 300px;
+    height: 95px;
+    border-bottom: 1px solid black;
+    transform: translateY(-20px) translateX(15px) rotate(23deg);
+    position: relative; /* absolute... anyway it brokes responsivness... */
   }
   
   .background>div {
@@ -64,8 +65,6 @@ hr {
   
   .top {
     position: absolute;
-    top: 1px;
-    right: 1px;
   }
 
 .table_cells {
